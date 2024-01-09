@@ -10,8 +10,14 @@
   <dependencies>
         <dependency>
         <groupId>androidx.appcompat</groupId>
-        <artifactId>appcompat</artifactId>
+        <artifactId>core-ktx</artifactId>
         <version>1.6.1</version>
+        <scope>compile</scope>
+    </dependency>
+     <dependency>
+        <groupId>androidx.core</groupId>
+        <artifactId>appcompat</artifactId>
+        <version>1.9.0</version>
         <scope>compile</scope>
     </dependency>
   </dependencies>
